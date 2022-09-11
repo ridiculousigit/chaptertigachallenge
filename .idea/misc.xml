@@ -6,9 +6,13 @@
         <entry key="..\:/Projects/AndroidStudioProjects/chaptertigachallenge/app/src/main/res/drawable/bg_large_button.xml" value="0.136" />
         <entry key="..\:/Projects/AndroidStudioProjects/chaptertigachallenge/app/src/main/res/drawable/bg_rounded_button.xml" value="0.1495" />
         <entry key="..\:/Projects/AndroidStudioProjects/chaptertigachallenge/app/src/main/res/layout/activity_main.xml" value="0.1387900355871886" />
+        <entry key="..\:/Projects/AndroidStudioProjects/chaptertigachallenge/app/src/main/res/layout/fragment_huruf.xml" value="0.1265625" />
+        <entry key="..\:/Projects/AndroidStudioProjects/chaptertigachallenge/app/src/main/res/layout/fragment_kalimat.xml" value="0.1265625" />
         <entry key="..\:/Projects/AndroidStudioProjects/chaptertigachallenge/app/src/main/res/layout/fragment_list_alphabets.xml" value="0.23425925925925925" />
         <entry key="..\:/Projects/AndroidStudioProjects/chaptertigachallenge/app/src/main/res/layout/fragment_list_words.xml" value="0.1" />
         <entry key="..\:/Projects/AndroidStudioProjects/chaptertigachallenge/app/src/main/res/layout/list_alphabets.xml" value="0.536" />
+        <entry key="..\:/Projects/AndroidStudioProjects/chaptertigachallenge/app/src/main/res/layout/list_huruf.xml" value="0.27447916666666666" />
+        <entry key="..\:/Projects/AndroidStudioProjects/chaptertigachallenge/app/src/main/res/layout/list_kalimat.xml" value="0.27447916666666666" />
         <entry key="..\:/Projects/AndroidStudioProjects/chaptertigachallenge/app/src/main/res/layout/list_words.xml" value="0.4583333333333333" />
         <entry key="..\:/Projects/AndroidStudioProjects/chaptertigachallenge/app/src/main/res/menu/header_bar.xml" value="0.2" />
         <entry key="..\:/Projects/AndroidStudioProjects/chaptertigachallenge/app/src/main/res/menu/toolbar_menu.xml" value="0.1" />

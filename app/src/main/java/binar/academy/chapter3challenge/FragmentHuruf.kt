@@ -29,7 +29,7 @@ class FragmentHuruf : Fragment() {
         (this.activity as MainActivity).supportActionBar?.setDisplayShowHomeEnabled(false)
         (this.activity as MainActivity).supportActionBar?.setDisplayHomeAsUpEnabled(false)
         dataHuruf()
-        rvHuruf = view.findViewById(R.id.recyclerViewAlphabets)
+        rvHuruf = view.findViewById(R.id.rvHuruf)
         with(rvHuruf) { setHasFixedSize(true) }
         GridLayoutManager(context, 3).also { layoutManager = it }
         layoutManager.also { rvHuruf.layoutManager = it }
