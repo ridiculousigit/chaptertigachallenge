@@ -29,7 +29,7 @@ class FragmentKalimat(private var getHuruf : String) : Fragment() {
         "Kata yang diawali oleh huruf $getHuruf".also { activity?.title = it }
         (this.activity as MainActivity).supportActionBar?.setDisplayShowHomeEnabled(true)
         (this.activity as MainActivity).supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        rvKata = view.findViewById(R.id.recyclerViewWords)
+        rvKata = view.findViewById(R.id.rvKata)
         with(rvKata) { setHasFixedSize(true) }
         LinearLayoutManager(context).also { rvKata.layoutManager = it }
         KalimatAdapter(daftarKata).also { kalimatAdapter = it }

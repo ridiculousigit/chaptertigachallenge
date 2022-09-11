@@ -21,9 +21,9 @@ class HurufAdapter(private val listHurufList: ArrayList<ListHuruf>, private val 
             tombolHuruf.text = parameterHuruf.huruf
             tombolHuruf.setOnClickListener {
                 val activity = itemView.context as AppCompatActivity
-                val wordsFragment = FragmentKalimat(tombolHuruf.text.toString())
+                val fragmentKalimat = FragmentKalimat(tombolHuruf.text.toString())
                 with(activity) {
-                    supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,wordsFragment).addToBackStack("fragment").commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.fragmentContainerView,fragmentKalimat).addToBackStack("fragment").commit()
                 }
             }
         }
@@ -36,7 +36,7 @@ class HurufAdapter(private val listHurufList: ArrayList<ListHuruf>, private val 
                 val activity = itemView.context as AppCompatActivity
                 val wordsFragment = FragmentKalimat(tombolHuruf.text.toString())
                 with(activity) {
-                    supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,wordsFragment).addToBackStack("fragment").commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.fragmentContainerView,wordsFragment).addToBackStack("fragment").commit()
                 }
             }
         }
