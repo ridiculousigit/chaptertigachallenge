@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.recyclerview.widget.RecyclerView
-import binar.academy.chaptertigachallenge.R
 
 class KalimatAdapter(private val listKalimatList : ArrayList<ListKalimat>) : RecyclerView.Adapter<KalimatAdapter.WordViewHolder>() {
     class WordViewHolder(private val view: View) : RecyclerView.ViewHolder(view){

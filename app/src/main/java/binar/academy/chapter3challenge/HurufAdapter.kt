@@ -7,7 +7,6 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import binar.academy.chaptertigachallenge.R
 
 class HurufAdapter(private val listHurufList: ArrayList<ListHuruf>, private val layoutManager: GridLayoutManager):
     RecyclerView.Adapter<HurufAdapter.HurufViewHolder>() {

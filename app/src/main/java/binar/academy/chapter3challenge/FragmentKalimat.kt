@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import binar.academy.chaptertigachallenge.R
 
 
 class FragmentKalimat(private var getHuruf : String) : Fragment() {

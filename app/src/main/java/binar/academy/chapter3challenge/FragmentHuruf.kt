@@ -5,7 +5,6 @@ import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import binar.academy.chaptertigachallenge.R
 
 class FragmentHuruf : Fragment() {
     private lateinit var listHurufList : ArrayList<ListHuruf>
