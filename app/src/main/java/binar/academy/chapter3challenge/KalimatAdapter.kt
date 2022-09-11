@@ -8,12 +8,12 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.recyclerview.widget.RecyclerView
 
-class KalimatAdapter(private val listKalimatList : ArrayList<ListKalimat>) : RecyclerView.Adapter<KalimatAdapter.WordViewHolder>() {
-    class WordViewHolder(private val view: View) : RecyclerView.ViewHolder(view){
+class KalimatAdapter(private val listKalimatList : ArrayList<ListKalimat>) : RecyclerView.Adapter<KalimatAdapter.KalimatViewHolder>() {
+    class KalimatViewHolder(private val view: View) : RecyclerView.ViewHolder(view){
         fun bindView(listKalimat: ListKalimat) {
-            val btnWords = view.findViewById<Button>(R.id.btnLarge)
-            btnWords.text = listKalimat.kata
-            btnWords.setOnClickListener {
+            val tombolKata = view.findViewById<Button>(R.id.btnLarge)
+            tombolKata.text = listKalimat.kata
+            tombolKata.setOnClickListener {
                 val activity = view.context as MainActivity
                 val intent = Intent(Intent.ACTION_VIEW)
                 intent.data = Uri.parse("https://www.google.com/search?q=${listKalimat.kata}")
@@ -22,12 +22,12 @@ class KalimatAdapter(private val listKalimatList : ArrayList<ListKalimat>) : Rec
         }
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WordViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): KalimatViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.list_kalimat, parent, false)
-        return WordViewHolder(view)
+        return KalimatViewHolder(view)
     }
 
-    override fun onBindViewHolder(holder: WordViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: KalimatViewHolder, position: Int) {
         holder.bindView(listKalimatList[position])
     }
 
